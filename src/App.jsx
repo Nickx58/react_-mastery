@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client";
-import Pizza from "./Pizza";
+// import Pizza from "./Pizza";
 import Order from "./Order";
+import PizzaOfTheDay from "./PizzaOfTheDay";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         image={"/public/pizzas/big_meat.webp"}
       /> */}
       <Order />
+      <PizzaOfTheDay />
     </div>
   );
 };
